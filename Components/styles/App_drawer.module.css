@@ -1,0 +1,56 @@
+.app_drawer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    background: rgb(34, 31, 31);
+    font-size: .6rem;
+    position: sticky;
+    top: 3.5rem;
+}
+
+
+.app_drawer>div {
+    margin-top: 8px;
+    width: 100%;
+}
+
+.app_drawer a {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    padding: .9rem 0 .9rem 0;
+}
+
+.app_drawer_icons {
+    font-size: 1.4rem;
+    margin-bottom: .3rem;
+}
+
+.app_drawer a:hover {
+    background-color: rgb(56, 56, 56);
+}
+
+@media screen and (max-width:700px) {
+    .app_drawer a {
+
+        padding: .5rem 0 .5rem 0;
+    }
+
+    .app_drawer_icons {
+        font-size: 1.1rem;
+    }
+}
+
+@media screen and (max-width:500px) {
+    .app_drawer a {
+
+        padding: .5rem 0 .5rem 0;
+    }
+
+    .app_drawer_icons {
+        font-size: 1.1rem;
+    }
+}

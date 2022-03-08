@@ -1,0 +1,58 @@
+.header {
+    width: 100%;
+    height: 3.5rem;
+    color: white;
+    background-color: rgb(34, 31, 31);
+    opacity: .98;
+    border-top: 1px solid rgb(51, 51, 51);
+    border-bottom: 1px solid rgb(51, 51, 51);
+    z-index: 20;
+    position: sticky;
+    top: 3.5rem;
+    overflow: hidden;
+}
+
+
+
+.header>div {
+    padding-left: 1rem;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    overflow-x: scroll;
+    position: relative;
+
+}
+
+
+
+.header>div::-webkit-scrollbar {
+    height: .2rem;
+    border-radius: 1rem;
+}
+
+.header>div::-webkit-scrollbar-thumb {
+    visibility: hidden;
+    background-color: gray;
+    border-radius: 1rem;
+}
+
+.header>div::-webkit-scrollbar-thumb:hover {
+    visibility: visible;
+}
+
+.header a {
+    background-color: rgba(255, 255, 255, 0.1);
+    padding: 0.2rem 0.7rem 0.35rem 0.7rem;
+    border: 1px solid hsla(0, 0%, 53.3%, 0.4);
+    border-radius: 5rem;
+    font-size: .9rem;
+    margin-right: .6rem;
+    white-space: nowrap;
+    transition: .25s all ease-in;
+}
+
+.header a:hover {
+    background-color: rgb(83, 82, 82);
+}
